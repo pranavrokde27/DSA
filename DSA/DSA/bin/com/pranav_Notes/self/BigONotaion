@@ -1,0 +1,159 @@
+		-->What is Big O?
+			
+			Big O is the language and metric we use to describe the efficiency of algorithms.
+			
+		Types of Runtimes:
+		O(N),O(N^2),O(2^N)
+-------------------------------------------------------------------------------------------------------------------
+
+		-->Big O Notations:
+		
+			- Big O: It is a complexity that is going to be less or equal to the worst case.
+			- Big - Ω (Big-Omega): It is a complexity that is going to be at least more than the best case.
+			- big Theta(Big - θ) : It is a complexity that is within bounds of the worrst and the best cases.
+			
+			
+	Big O - O(N)
+	
+	Big Ω - Ω(1)
+	
+	Big θ - θ(n/2)
+
+	NOTE:- Interview ask only big O notations			
+			
+====================================================================================================================		
+		Runtime Complexities
+		
+		O(1)- Constant Time--Excellent one
+		
+			-Example--> constant time
+			int[] array = {1,2,3,4,5}
+			array[0]-----> It takes constant time to acess first element.
+		
+			
+		O(N) - Linear time--Fair One
+			
+			-Example--> 			
+		
+		
+		O(Log N) - Logarithmic time--Excellent one
+		
+			-Example--> Logarithmic time
+			int[] customArray = {1,2,3,4,5}	
+			for(int i = 0; i < array.length(); i+3){
+			Sysment.out.print(array[i]);
+			}
+			
+			logarithmic time since it is visiting only some elements
+			
+			
+		O(N^2) - Quadratic Time--Horrible One
+		
+			-Example--> Quadratic time
+			int[] customArray = {1,2,3,4,5}	
+			for(int i = 0; i < array.length(); i++){
+			Sysment.out.print(array[i]);
+			}
+		
+		O(2^N_) - Exponential time--Horrible One
+			
+			-Example --> Fibonacci Series
+			
+====================================================================================================================		
+		Space Complexity
+		
+		-An array of size n
+			int arr = [a1,a2,....,a(n)]
+			
+			O(N)
+			
+		-An array of size n*n
+			
+			a = |a00 a01 a02|
+				|a10 a11 a12|
+				|a20 a21 a22|
+				
+		-Example of O(N)
+			static int sum(int n){
+			if(n <= 0){
+			return 0;
+			}
+			return n + sum(n-1);
+		}
+======================================================================================================================
+		Drop constants and Non Dominant Terms:-
+		
+		drop constant
+		
+		O(2N) ---> O(N)
+		
+		Drop Non Dominant terms
+		
+		O(N^2 + N) ---> O(N^2)
+		
+		O(N + log N) ---> O(N)
+		
+		O(2*2^N + 1000N^100) ---> O(2^N)
+		
+		
+		
+		-It is very possible that O(N) code is faster than O(1) code for specifc inputs.
+		
+		-Different computers with different architectures have different constant factors.
+		
+		- Different algorithms with the same basic idea and computational complexity might have slightly 
+			different constants
+		
+			Example:- a*(b-c) vs a*b - a*c
+=============================================================================================================================		
+		Add vs Multiply
+		
+		
+		watch vedio number 31
+=============================================================================================================================					
+
+		-How to measure the  codes using Big O ?
+		
+		Rules to assign complexity--->
+			
+			-Rule 1:- ---> Complexity = O(1)
+				Any assignment statements and if statements that are executed once regardless of 
+				the size of the problem.
+				
+			-Rule 2:- ---> Complexity = O(n)
+				A simple "for" loop from 0 to n (with no internal loops).
+				
+			-Rule 3:- ---> Complexity = O(n^2)
+				A nested loop of the same type takes quadratic time complexity.
+				
+			-Rule 4:- ---> Complexity = O(log n)
+				A loop in which the controlling parameter is divided by two at each step
+				
+			-Rule 5:- ---> Complexity = 
+				When dealing with multiple statements, just add them up	
+				
+				
+			Example---> Vedio no 32 time 2:42
+			
+				sampleArray	
+				
+		
+===========================================================================================================		
+		
+		-How to measure recursive algorithm?
+			
+			Vedio number:- 33
+			
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

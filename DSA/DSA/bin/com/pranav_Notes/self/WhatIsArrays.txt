@@ -1,0 +1,51 @@
+			--What is Arrays?
+				
+				- arrays can store data of specific type
+				- elements of an array located in a contiguous.
+				- each element of an array has a unique index.
+				- the size of an array is predefined and cannot be modified.
+			
+			-- Defination of an array in computer science
+			
+				In computer science, an array is a data structure consisting of a collection of elements , 
+				each identified by at least one array index or key. An array is such storeed that the position
+				of each element can be computed from its index by a mathemmatical formula.
+				
+					--example--> 
+----------------------------------------------------------------------------------------------------------------------------------------------------					
+			--Type of arrays
+			
+			
+				-One dimensional array: an array with a bunch of values having declared with a single index a[i].
+				
+					--example--> int[i] arr = new int[]{1,2,...,n-1}
+					
+				- Two dimensional array: an array with a bunch of values having declared with a double index a[i][j].	
+					
+					--example--> int[i][j] arr = new int[1][1]{1}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------					
+			--Arrays in Memory
+			
+--------------------------------------------------------------------------------------------------------------------------------------------------
+			-- Creating an Array
+			
+				When we create an array, we:
+				
+					-declare - creates a reference to array 
+					
+					-intialization of an array - creates an array
+					
+					- intialization - assigns values to cells in array
+						
+						example--> dataType
+				
+----------------------------------------------------------------------------------------------------------------------------------------------
+			-- Insertion in Array
+			
+			
+							
+			
+			
+				
+				
