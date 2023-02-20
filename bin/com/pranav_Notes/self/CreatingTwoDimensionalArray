@@ -1,0 +1,5 @@
+Two dimensional Array:->
+		when we create an array we:
+			-Declare->creates a reference to array.
+			-Instantiation of an array-> creates an array.
+			-Initialization-> assigns values to cells in array. 
