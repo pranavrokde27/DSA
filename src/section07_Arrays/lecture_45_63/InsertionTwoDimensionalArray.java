@@ -18,7 +18,7 @@ public class InsertionTwoDimensionalArray {
 		try {
 			if(arr[row][col] == Integer.MIN_VALUE) {
 				arr[row][col] = value;
-//				System.out.println("The value is successfully inserted");
+				System.out.println("The value is successfully inserted");
 			}else {
 				System.out.println("This cell is already occupied");
 			}			
