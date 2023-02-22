@@ -1,0 +1,10 @@
+   Time and Space Complexity of 1D Arrays
+     
+      operation 						time complexity  					space complexity
+  Creating an empty array			          O(1)								o(n)
+  Inserting a value in an array               O(1)			 					O(1)
+  Traversing a value in an array              O(n)			 					O(1)
+  Accessing a value in an array               O(1)			 					O(1)       
+  Searching a value in an array               O(n)			 					O(1)
+  Deleting a value in an array                O(1)			 					O(1)
+   
