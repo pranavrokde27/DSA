@@ -11,7 +11,10 @@ public class MissiingNumber {
 		for(int i: arrm) {
 			sum1 += i;
 		}
+		System.out.println(sum1);
 		sum2 = 10*(10+1)/2;
+		
+		System.out.println(sum2);
 		int difference = sum2 - sum1;
 		System.out.println("Missing Number is "+ difference);
 	}
@@ -19,7 +22,7 @@ public class MissiingNumber {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		MissiingNumber mn = new MissiingNumber();
-		int intArray[] = {1,2,3,4,6,7,8,9,10};
+		int intArray[] = {1,2,3,4,5,6,7,8,10};
 		
 		mn.missingNumber(intArray);
 		
