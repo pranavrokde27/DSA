@@ -1,21 +1,22 @@
 package section11_LinkedList.lecture_83_97;
 
+
+
 //Dinesh viryani youtube
 
 public class SinglyLinkedList {
 	
-	private ListNode head;
+	private ListNode head;//Instance variable.
 	
 	private static class ListNode{
-		private int data; // any generic type
-		private ListNode next;
-		
-		public ListNode(int data) {
-			this.data=data;
-			this.next= null;
+	private int data;//data property.
+	private ListNode next;//pointer to next node.
+	
+	public ListNode(int data) {//Constructor 
+		this.data = data;
+		this.next = null;
 		}
 	}
-	
 	public void display() {
 		ListNode current = head;
 		while(current != null) {
@@ -27,7 +28,7 @@ public class SinglyLinkedList {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		SinglyLinkedList sll = new SinglyLinkedList();
+		SinglyLinkedList sll = new SinglyLinkedList(); //Intialize the value
 		sll.head = new ListNode(10); //10
 		ListNode second = new ListNode(1); //10-->1
 		ListNode third = new ListNode(8);  //10-->1-->8
